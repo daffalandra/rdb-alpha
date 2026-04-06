@@ -88,3 +88,7 @@ psql --username=freecodecamp --dbname=worldcup -c "SELECT COUNT(*) FROM teams;"
 ./insert_data.sh
 ./queries.sh
 git pull origin master
+clear
+git branch
+git checkout -b world-cup
+git status
